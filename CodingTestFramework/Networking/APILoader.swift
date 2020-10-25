@@ -21,7 +21,9 @@ public class APILoader<Request: APIRequest> {
     let urlSession: URLSession
     let apiCacher: APICacher
 
-    init(apiRequest: Request, urlSession: URLSession = .shared, apiCacher: APICacher = .init()) {
+    init(apiRequest: Request,
+         urlSession: URLSession = .shared,
+         apiCacher: APICacher = .init()) {
         self.apiRequest = apiRequest
         self.urlSession = urlSession
         self.apiCacher = apiCacher
