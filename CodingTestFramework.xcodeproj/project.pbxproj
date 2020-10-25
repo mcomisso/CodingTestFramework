@@ -16,7 +16,7 @@
 		B971E6502545E8B1000873C6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E64F2545E8B1000873C6 /* Coordinator.swift */; };
 		B971E6542545E8D8000873C6 /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E6532545E8D8000873C6 /* LaunchArguments.swift */; };
 		B971E6582545E8DE000873C6 /* LaunchArgumentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E6572545E8DE000873C6 /* LaunchArgumentProtocol.swift */; };
-		B971E6662545E8FF000873C6 /* UIViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E65D2545E8FF000873C6 /* UIViewController+extensions.swift */; };
+		B971E6662545E8FF000873C6 /* UIViewController+Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E65D2545E8FF000873C6 /* UIViewController+Initializable.swift */; };
 		B971E6672545E8FF000873C6 /* UIStoryboard+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E65E2545E8FF000873C6 /* UIStoryboard+extensions.swift */; };
 		B971E6682545E8FF000873C6 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E65F2545E8FF000873C6 /* UITableView+Reusable.swift */; };
 		B971E66A2545E8FF000873C6 /* JSONDecoder+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E6632545E8FF000873C6 /* JSONDecoder+extensions.swift */; };
@@ -27,6 +27,8 @@
 		B971E6752545E912000873C6 /* APILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E6712545E912000873C6 /* APILoader.swift */; };
 		B971E6762545E912000873C6 /* APICacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E6722545E912000873C6 /* APICacher.swift */; };
 		B971E6802545EE86000873C6 /* URL+extensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E6622545E8FF000873C6 /* URL+extensionTests.swift */; };
+		B971E6992545FAEA000873C6 /* AppTermination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E6982545FAEA000873C6 /* AppTermination.swift */; };
+		B971E69F2545FB2B000873C6 /* NotificationCenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B971E69E2545FB2B000873C6 /* NotificationCenterType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,7 @@
 		B971E64F2545E8B1000873C6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		B971E6532545E8D8000873C6 /* LaunchArguments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchArguments.swift; sourceTree = "<group>"; };
 		B971E6572545E8DE000873C6 /* LaunchArgumentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchArgumentProtocol.swift; sourceTree = "<group>"; };
-		B971E65D2545E8FF000873C6 /* UIViewController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+extensions.swift"; sourceTree = "<group>"; };
+		B971E65D2545E8FF000873C6 /* UIViewController+Initializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Initializable.swift"; sourceTree = "<group>"; };
 		B971E65E2545E8FF000873C6 /* UIStoryboard+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+extensions.swift"; sourceTree = "<group>"; };
 		B971E65F2545E8FF000873C6 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		B971E6622545E8FF000873C6 /* URL+extensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+extensionTests.swift"; sourceTree = "<group>"; };
@@ -63,6 +65,8 @@
 		B971E6702545E912000873C6 /* HTTPMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		B971E6712545E912000873C6 /* APILoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APILoader.swift; sourceTree = "<group>"; };
 		B971E6722545E912000873C6 /* APICacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICacher.swift; sourceTree = "<group>"; };
+		B971E6982545FAEA000873C6 /* AppTermination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTermination.swift; sourceTree = "<group>"; };
+		B971E69E2545FB2B000873C6 /* NotificationCenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				B971E6482545E89A000873C6 /* Architectures */,
 				B971E6912545EF3B000873C6 /* LaunchArguments */,
 				B971E6922545EF4A000873C6 /* Networking */,
+				B971E6972545FAD3000873C6 /* Observers */,
 				B971E65B2545E8FF000873C6 /* Utils */,
 				B971E6352545E6D5000873C6 /* Request.swift */,
 				B971E63D2545E700000873C6 /* Strings.swift */,
@@ -148,7 +153,7 @@
 		B971E65C2545E8FF000873C6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				B971E65D2545E8FF000873C6 /* UIViewController+extensions.swift */,
+				B971E65D2545E8FF000873C6 /* UIViewController+Initializable.swift */,
 				B971E65E2545E8FF000873C6 /* UIStoryboard+extensions.swift */,
 				B971E65F2545E8FF000873C6 /* UITableView+Reusable.swift */,
 			);
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				B971E6632545E8FF000873C6 /* JSONDecoder+extensions.swift */,
+				B971E69E2545FB2B000873C6 /* NotificationCenterType.swift */,
 				B971E6642545E8FF000873C6 /* AccessibilityIdentifiers.swift */,
 				B971E6652545E8FF000873C6 /* URL+extensions.swift */,
 			);
@@ -191,6 +197,14 @@
 				B971E66F2545E912000873C6 /* API.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		B971E6972545FAD3000873C6 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				B971E6982545FAEA000873C6 /* AppTermination.swift */,
+			);
+			path = Observers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B971E66A2545E8FF000873C6 /* JSONDecoder+extensions.swift in Sources */,
-				B971E6662545E8FF000873C6 /* UIViewController+extensions.swift in Sources */,
+				B971E6662545E8FF000873C6 /* UIViewController+Initializable.swift in Sources */,
 				B971E6762545E912000873C6 /* APICacher.swift in Sources */,
 				B971E6542545E8D8000873C6 /* LaunchArguments.swift in Sources */,
 				B971E6732545E912000873C6 /* API.swift in Sources */,
@@ -313,9 +327,11 @@
 				B971E64C2545E8A9000873C6 /* MVVM.swift in Sources */,
 				B971E6752545E912000873C6 /* APILoader.swift in Sources */,
 				B971E63E2545E700000873C6 /* Strings.swift in Sources */,
+				B971E69F2545FB2B000873C6 /* NotificationCenterType.swift in Sources */,
 				B971E6362545E6D5000873C6 /* Request.swift in Sources */,
 				B971E66B2545E8FF000873C6 /* AccessibilityIdentifiers.swift in Sources */,
 				B971E6742545E912000873C6 /* HTTPMethods.swift in Sources */,
+				B971E6992545FAEA000873C6 /* AppTermination.swift in Sources */,
 				B971E66C2545E8FF000873C6 /* URL+extensions.swift in Sources */,
 				B971E6502545E8B1000873C6 /* Coordinator.swift in Sources */,
 			);
