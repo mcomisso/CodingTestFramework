@@ -1,3 +1,5 @@
+#if canImport(UIKit)
+
 import Foundation
 import UIKit
 
@@ -23,3 +25,5 @@ public extension UIViewController {
         return viewController
     }
 }
+
+#endif

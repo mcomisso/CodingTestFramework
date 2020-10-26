@@ -1,4 +1,7 @@
 import Foundation
+
+#if canImport(UIKit)
+
 import UIKit
 
 public protocol Coordinator: AnyObject {
@@ -7,3 +10,5 @@ public protocol Coordinator: AnyObject {
 
     func start()
 }
+
+#endif

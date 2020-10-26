@@ -1,3 +1,5 @@
+#if canImport(UIKit)
+
 import Foundation
 import UIKit
 
@@ -24,3 +26,5 @@ extension UITableView {
     }
 
 }
+
+#endif

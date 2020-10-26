@@ -1,3 +1,5 @@
+#if canImport(UIKit)
+
 import Foundation
 import UIKit
 
@@ -19,3 +21,5 @@ public extension AppTerminationObservable where Self: AppTerminationObserved {
 }
 
 public typealias AppTerminationObserving = AppTerminationObservable & AppTerminationObserved
+
+#endif
